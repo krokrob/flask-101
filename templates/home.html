@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flask-101</title>
+</head>
+<body>
+  <h1>Hi {{ name }}!</h1>
+  <p>Here is a list:</p>
+  <ul>
+    {% for item in stack %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  <a href="/new">New prediction</a>
+</body>
+</html>

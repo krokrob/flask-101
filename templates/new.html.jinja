@@ -1,0 +1,12 @@
+{% extends "layout.html.jinja" %}
+{% block title %}New Prediction{% endblock %}
+
+{% block content %}
+  <h1>Hi peeps!</h1>
+  <p>Here is a list</p>
+  <ul>
+    {% for item in stack %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
