@@ -1,5 +1,7 @@
 # Flask-101
 
+Wanabee boilerplate for Le Wagon Data Science bootcamp. See [demo](https://shielded-depths-49699.herokuapp.com/).
+
 ## Setup
 
 ```bash
