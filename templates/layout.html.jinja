@@ -5,7 +5,7 @@
   <title>Flask 101-{% block title %}{% endblock %}</title>
 </head>
 <body>
-  <div>NAVBAR</div>
+  {% include 'shared/navbar.html' %}
   {% block content %}{% endblock %}
   <div>FOOTER</div>
 </body>

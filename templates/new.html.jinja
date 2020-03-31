@@ -2,11 +2,10 @@
 {% block title %}New Prediction{% endblock %}
 
 {% block content %}
-  <h1>Hi peeps!</h1>
-  <p>Here is a list</p>
-  <ul>
-    {% for item in stack %}
-      <li>{{ item }}</li>
-    {% endfor %}
-  </ul>
+  <h1>Let's make a new prediction</h1>
+  <form class="" action="">
+    <label for="X"></label>
+    <input type="text" name="X" class="form-control">
+    <input type="submit" class="btn btn-primary" value="Submit">
+  </form>
 {% endblock %}
