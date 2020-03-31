@@ -2,10 +2,14 @@
 {% block title %}New Prediction{% endblock %}
 
 {% block content %}
-  <h1>Let's make a new prediction</h1>
-  <form class="" action="">
-    <label for="X"></label>
-    <input type="text" name="X" class="form-control">
-    <input type="submit" class="btn btn-primary" value="Submit">
-  </form>
+  <div class="container">
+    <h1>Awesome predictor</h1>
+    <form action="{{ url_for('predict') }}">
+      <div class="form-group">
+        <label for="X">Request a prediction</label>
+        <input type="text" name="X" class="form-control" placeholder='Enter your input here'>
+      </div>
+      <input type="submit" class="btn btn-primary" value="Submit">
+    </form>
+  </div>
 {% endblock %}

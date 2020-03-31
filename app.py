@@ -11,7 +11,7 @@ assets.register('css_all', css)
 
 @app.route('/')
 def hello():
-    return 'Hello World!'
+    return render_template('hello.html')
 
 @app.route('/<name>')
 def home(name=None):
@@ -25,4 +25,4 @@ def new():
 
 @app.route('/predict')
 def predict(input=None):
-    pass
+    return "Work in progress..."
